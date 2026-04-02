@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background: #2725252a;
+    padding: 20px 2% 35px 2%;
+    height: 90px;
+}
+
+header div.logo {
+    float: left;
+    margin-top: -20px;
+    margin-left: -150px;
+}
+
+
+header div.logo img {
+    width: 20vh;
+    height: 15vh;
+}
+
+header nav.desktop {
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+header nav.desktop ul {
+    list-style-type: none;
+}
+
+header nav.desktop ul li {
+    float: left;
+    padding: 0 30px;
+    font-size: 25px;
+}
+
+header nav.desktop a {
+    color: white;
+    position: relative;
+    text-decoration: transparent;
+    border: solid 0.2px transparent;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+header nav.desktop a:hover {
+    border-color: white;
+}
+
+nav.mobile {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-top: 40px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    display: none;
+}
+
+nav.mobile ul {
+    position: absolute;
+    text-align: center;
+    display: none;
+    left: 0;
+    top: 95px;
+    width: 100%;
+}
+
+footer {
+    background: #252525;
+    padding: 40px 2%;
+    margin-top: 20px;
+}
+
+footer nav {
+    float: left;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    float: left;
+    padding: 0 35px;
+    font-size: 20px;
+
+}
+
+footer nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    float: right;
+    color: white;
+    font-size: 20px;
+
+}
+
+.wallpaper img {
+    height: 600px;
+    width: 1000px;
+    margin-left: 170px;
+
+}
+
+
+.info h1 {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.info p {
+    color: white;
+    margin-top: 50px;
+    width: 50%;
+    position: relative;
+    margin-left: 500px;
+}
+
+.btn button {
+    color: white;
+    margin-top: 60px;
+    margin-left: 890px;
+    font-size: 20px;
+    background-color: transparent;
+    border: solid green;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+}
+
+.event h1 {
+    color: white;
+    margin-top: 40px;
+    margin-left: 750px;
+}
+
+.container-dj {
+    margin-top: 40px;
+    width: 1000px;
+    display: flex;
+    margin-left: 58vh;
+}
+
+.dj img {
+    width: 250px;
+    height: 200px;
+    border: solid 3px rgb(13, 81, 8);
+    margin-right: 28px;
+}
+
+.p1 p {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 95px;
+
+}
+
+.p2 p {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 45px;
+
+}
+
+
+.p3 p {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 50px;
+
+}
+
+
+.mais1 h1 {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.mais1 p {
+    color: white;
+    margin-top: 20px;
+    width: 50%;
+    position: relative;
+    margin-left: 500px;
+
+}
+
+.palestrantes h1 {
+    color: white;
+    margin-left: 94vh;
+    margin-top: 50px;
+}
+
+.palestrantes img {
+    height: 510px;
+    width: 1000px;
+    margin-left: 464px;
+    margin-top: 50px;
+
+}
+
+
+.container-contato h1 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-contato {
+    width: 700px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 65vh;
+    background-color: rgb(27, 27, 27);
+    border: solid green
+}
+
+.input-contato {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 63px;
+}
+
+.input-contato input {
+    height: 40px;
+    width: 100%;
+    border: solid green;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.input-contato ::placeholder{
+    color: black;
+}
+
+.input-enviar {
+    height: 60px;
+    margin-top: 30px;
+
+}
+
+.input-enviar input {
+    height: 100%;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: solid green;
+    color: black;
+}
